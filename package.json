@@ -10,6 +10,8 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "@unform/core": "^2.1.5",
+    "@unform/web": "^2.1.5",
     "framer-motion": "^3.3.0",
     "leaflet": "^1.7.1",
     "next": "10.0.7",
