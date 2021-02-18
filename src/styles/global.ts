@@ -9,13 +9,13 @@ export default createGlobalStyle`
   }
 
   html, body {
-    font: 600 18px Roboto, sans-serif;
+    font: 600 16px Nunito, sans-serif;
   }
 
   input,
   button,
   textarea {
-    font: 700 18px Nunito, sans-serif;
+    font: 700 18px Poppins, sans-serif;
   }
 
   :root {
