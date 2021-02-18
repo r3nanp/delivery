@@ -34,7 +34,8 @@ export const FormField = styled.form`
 
     > label {
       display: flex;
-      color: #8fa7b3;
+      color: var(--button);
+      letter-spacing: 0.025em;
       margin-bottom: 8px;
       line-height: 24px;
       margin-top: 24px;
@@ -55,6 +56,8 @@ export const FormField = styled.form`
   > button {
     margin-top: 20px;
     padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
     color: white;
     background: var(--button);
     transition: all 0.3s;
@@ -62,6 +65,10 @@ export const FormField = styled.form`
     &:hover {
       cursor: pointer;
       background: var(--hover-button);
+    }
+
+    &:focus {
+      border: 1px solid black;
     }
   }
 
