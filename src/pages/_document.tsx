@@ -1,10 +1,12 @@
+// eslint-disable-next-line no-use-before-define
+import React from 'react'
 import Document, {
   DocumentContext,
   DocumentInitialProps,
   Html,
   Head,
   Main,
-  NextScript,
+  NextScript
 } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
@@ -18,7 +20,7 @@ export default class MyDocument extends Document {
     try {
       context.renderPage = () =>
         originalRenderPage({
-          enhanceApp: App => props => sheet.collectStyles(<App {...props} />),
+          enhanceApp: App => props => sheet.collectStyles(<App {...props} />)
         })
 
       const initialProps = await Document.getInitialProps(context)
@@ -29,7 +31,7 @@ export default class MyDocument extends Document {
             {initialProps.styles}
             {sheet.getStyleElement()}
           </>
-        ),
+        )
       }
     } finally {
       sheet.seal()
@@ -45,7 +47,7 @@ export default class MyDocument extends Document {
           <meta name="description" content="A app to delivery products!" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="<https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap>"
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap"
             rel="stylesheet"
           />
           <link
