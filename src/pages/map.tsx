@@ -20,6 +20,28 @@ export default function Map(): JSX.Element {
         <title>Deliveries!</title>
         <meta name="keywords" content="maps, deliveries" />
         <link rel="shortcut icon" href="/package.svg" />
+
+        <meta property="og:site_name" content="Map of deliveries" />
+
+        <meta property="og:title" content="Deliveries" />
+        <meta
+          property="og:description"
+          content="A delivery app to your favorite products"
+        />
+
+        <meta property="og:image" content="/package.svg" />
+        <meta property="og:image:type" content="image/png" />
+
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Deliveries" />
+        <meta
+          name="twitter:description"
+          content="A delivery app to your favorite products"
+        />
+        <meta name="twitter:image" content="/package.svg" />
       </Head>
 
       <Header />
