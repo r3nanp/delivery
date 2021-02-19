@@ -1,0 +1,29 @@
+{
+  "name": "Delivery App",
+  "description": "A delivery app to your favorite products",
+  "short_name": "Delivery App",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "background_color": "#fafafa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/logo@96x.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/logo@192x.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo@512x.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
