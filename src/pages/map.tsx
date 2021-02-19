@@ -22,11 +22,11 @@ export default function Map(): JSX.Element {
         <link rel="shortcut icon" href="/package.svg" />
 
         <meta property="og:site_name" content="Map of deliveries" />
-
+        <meta name="description" content="Choose your favorite products!" />
         <meta property="og:title" content="Deliveries" />
         <meta
           property="og:description"
-          content="A delivery app to your favorite products"
+          content="Choose your favorite products!"
         />
 
         <meta property="og:image" content="/package.svg" />

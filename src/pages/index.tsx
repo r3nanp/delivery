@@ -59,6 +59,10 @@ export default function Home(): JSX.Element {
         <link rel="icon" href="/package.svg" />
 
         <meta name="keywords" content="r3nanp, deliveries, packages" />
+        <meta
+          name="description"
+          content="A delivery app to your favorite products"
+        />
         <meta property="og:site_name" content="Delivery" />
         <meta property="og:title" content="Delivery" />
         <meta
