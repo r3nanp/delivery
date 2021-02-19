@@ -37,10 +37,10 @@ export default function Home(): JSX.Element {
           <legend>Entre e comece a pedir agora!</legend>
 
           <label htmlFor="email">Digite seu email</label>
-          <input type="text" name="email" />
+          <input type="text" name="email" required />
 
           <label htmlFor="password">Digite sua senha</label>
-          <input type="password" name="password" />
+          <input type="password" name="password" required />
         </fieldset>
 
         <button>Comece a pedir</button>
