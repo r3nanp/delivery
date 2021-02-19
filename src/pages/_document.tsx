@@ -44,7 +44,6 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#ffffff" />
-          <meta name="description" content="A app to delivery products!" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap"
@@ -54,6 +53,8 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
             rel="stylesheet"
           />
+
+          <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />
